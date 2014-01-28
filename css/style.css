@@ -1,6 +1,6 @@
 body
 {
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	text-align: center;
 	font-size: 15px;
 	background: #ffffff;
@@ -89,5 +89,10 @@ a:visited
 /*---CSS for tables----------------------------------------------------------*/
 table
 {
-	width: 25%;
+	margin-left: auto;
+	margin-right:auto;
+}
+table tr td
+{
+	width: 450px;
 }
