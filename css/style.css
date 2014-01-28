@@ -4,7 +4,7 @@ body
 	text-align: center;
 	font-size: 15px;
 	background: #ffffff;
-}/*----CSS for drop down menu----------------------------*/
+}/*----CSS for drop down menu----------------------------------------*/
 ul
 {
 	text-align: left;
@@ -73,7 +73,7 @@ ul li:hover ul
 	opacity: 1;
 	visibility: visible;
 }
-/*----------------------------------------------------*/
+/*---CSS for links--------------------------------------------------*/
 a
 {
 	text-decoration: none;
@@ -86,4 +86,3 @@ a:visited
 {
 	color: #000000;
 }
-a:
