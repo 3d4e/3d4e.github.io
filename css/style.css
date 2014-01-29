@@ -55,7 +55,7 @@ ul li ul li
 {
 	background: #a0a0a0;
 	display: block;
-	color: #fff;
+	color: #000000;
 	text-shadow: 0 -1px 0 #000;
 }
 ul li:hover
@@ -95,4 +95,26 @@ table
 table tr td
 {
 	width: 450px;
+}
+/*---CSS for chapter page stuff--------------------------------------*/
+#ChapterMain
+{
+	width: 75%;
+	float: left;
+}
+#ChapterBlogFeed
+{
+	width: 500px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+#ChapterFooter
+{
+	clear: both;
+	text-align: center;
+}
+#ChapterHeader h1
+{
+	margin-bottom: 0;
 }

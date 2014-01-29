@@ -1,32 +1,43 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel = "stylesheet" type="text/css" href="css/smoothDivScroll.css" />
 	</head>
 	
 	<body>
 		<!--Drop down menu items-->
 		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="#">Philosophy</a></li>
-			<li><a href="#">Chapters</a>
+			<a href="index.html"><li>Home</li></a>
+			<a href="#"><li>Philosophy</li></a>
+			<li>Chapters
 				<ul>
-					<li><a href="LMU.html">LMU</a></li>
-					<li><a href="SDSU.html">SDSU</a></li>
-					<li><a href="USC.html">USC</a></li>
+					<a href="LMU.html"><li>LMU</li></a>
+					<a href="SDSU.html"><li>SDSU</li></a>
+					<a href="USC.html"><li>USC</li></a>
 				</ul>
 			</li>
-			<li><a href="#">News</a></li>
-			<li><a href="#">Contact</a></li>
+			<a href="#"><li>News</li></a>
+			<a href="#"><li>Contact</li></a>
 		</ul>
 		
-		<!--RSS Feed for WordPress blog-->
-		<script type="text/javascript" src="http://output17.rssinclude.com/output?type=js&amp;id=829791&amp;hash=a585a2729d27b8a8a2ea875db1f36353"></script>
-		
-		<!--Social media link-->
-		<br><br><br><br>
-		<img src="images/facebook_icon.png" alt="Like us on Facebook!">
-		<img src="images/twitter_icon.png" alt="Follow us on Twitter!">
+		<div id="ChapterHeader">
+			<h2>Loyola Marymount University</h2>
+		</div>
+		<div id="ChapterMain">
+			<p>placeholder text</p>
+		</div>
+		<div id="ChapterBlogFeed">
+			<h3><u>Recent Blog Posts</u></h3>
+			<p>Visit the blog <a href="http://3d4elmu.wordpress.com/"><b style="color:blue;">HERE</b></a></p>
+			<!--RSS Feed for WordPress blog-->
+			<script type="text/javascript" src="http://output17.rssinclude.com/output?type=js&amp;id=829791&amp;hash=a585a2729d27b8a8a2ea875db1f36353"></script>	
+		</div>
+		<div id="ChapterFooter">
+			<!--Social media link-->
+			<br><br><br><hr><br>
+			<img src="images/facebook.png" alt="Like us on Facebook!">
+			<img src="images/twitter.png" alt="Follow us on Twitter!">
+			<img src="images/instagram.png" alt="Follow us on Instagram!">
+		</div>
 		
 	</body>
 </html>
