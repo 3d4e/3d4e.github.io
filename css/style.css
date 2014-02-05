@@ -1,3 +1,7 @@
+#background
+{
+	background-image: url(http://i.imgur.com/KaOrS5e.png);
+}
 body
 {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -23,7 +27,8 @@ ul li
 	margin-right: -5px;
 	position: relative;
 	padding: 15px 20px;
-	background: #f0f0f0;
+	background-image: url(http://i.imgur.com/PPsVCjx.png);
+	border: 1px solid #565656;
 	cursor: pointer;
 	-webkit-transition:all 0.2s;
 	-moz-transition:all 0.2s;
@@ -125,4 +130,3 @@ table tr td
 	margin-bottom: 0;
 	margin-top: 0;
 }
-/*---CSS for  ----------------------------------------*/
